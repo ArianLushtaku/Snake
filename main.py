@@ -14,7 +14,7 @@ class GameState(Enum):
 pygame.init()
 #music
 mixer.init()
-mixer.music.load('snakemusic.mp3')
+mixer.music.load('Graphics/snakemusic.mp3')
 mixer.music.set_volume(0.3)
 mixer.music.play()     
 
